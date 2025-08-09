@@ -14,3 +14,13 @@ public class BitwiseOperators {
         }
 
 }
+
+/*
+ output:
+ 1
+7
+6
+-6
+10
+2
+*/
