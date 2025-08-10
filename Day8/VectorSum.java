@@ -2,7 +2,7 @@ package Day8;
 
 import java.util.Enumeration;
 import java.util.Vector;
-
+//3.create a method for calculate the sum for taking a vector as parameter.
 public class VectorSum {
 	public static void sum(Vector<Integer> v) {
 		int s=0;
@@ -27,3 +27,10 @@ public class VectorSum {
 	}
 
 }
+/* output:
+sum: 79
+10
+20
+9
+40
+*/
