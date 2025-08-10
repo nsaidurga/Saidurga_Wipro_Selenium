@@ -2,20 +2,20 @@ package Day8;
 import java.util.List;
 import java.util.Vector;
 /* Vector
-•	Create a Vector of integers and perform the following operations:
-•	Add 5 integers to the Vector.
-•	Insert an element at the 3rd position.
-•	Remove the 2nd element.
-•	Display the elements using Enumeration.
-•	Create a Vector of Strings and:
-•	Add at least 4 names.
-•	Check if a specific name exists in the vector.
-•	Replace one name with another.
-•	Clear all elements from the vector.
-•	Write a program to:
-•	Copy all elements from one Vector to another Vector.
-•	Compare both vectors for equality.
-•	Write a method that takes a Vector<Integer> and returns the sum of all elements.
+1)  Create a Vector of integers and perform the following operations:
+2)	Add 5 integers to the Vector.
+3)	Insert an element at the 3rd position.
+4)	Remove the 2nd element.
+5)	Display the elements using Enumeration.
+6)	Create a Vector of Strings and:
+7)	Add at least 4 names.
+8)	Check if a specific name exists in the vector.
+9)	Replace one name with another.
+10)	Clear all elements from the vector.
+11) Write a program to:
+12)	Copy all elements from one Vector to another Vector.
+13)	Compare both vectors for equality.
+14)	Write a method that takes a Vector<Integer> and returns the sum of all elements.
  */
 public class VectorEx {
 	public static void sum(Vector<Integer> h) {
@@ -66,3 +66,23 @@ public class VectorEx {
 	}
 
 }
+/* output
+[null, Orange, Blue, White, Gray, Black, null, Red]
+7
+[null, Orange]
+true
+20
+true
+White
+White
+false
+null
+null
+true
+[null, Orange, Blue, White, Gray, Black, null, Red, null, Orange, Blue, White, Gray, Black, null, Red]
+[null, Orange, Blue, White, Gray, Black, null, Red, null, Orange, Blue, White, Gray, Black, null, Red]
+[null, Orange, Blue, White, Gray, Black, null, Indigo, Red, null, Orange, Blue, White, Gray, Black, null, Red]
+true
+Sum of elements: 
+163
+*/
