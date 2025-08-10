@@ -25,3 +25,13 @@ public class PrimitiveDatatypes {
 	}
 
 }
+/*output:
+121
+1234
+15243
+34453
+32.065
+87.0987
+A
+true
+*/
