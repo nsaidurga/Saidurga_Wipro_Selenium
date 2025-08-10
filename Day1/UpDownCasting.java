@@ -26,4 +26,9 @@ public class UpDownCasting {
 	}
 
 }
-//using upand down casting we can achieve runtime polymorphism
+/*output:
+Hello
+How are you
+Welcome
+How are you
+*/
