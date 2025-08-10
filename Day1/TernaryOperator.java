@@ -10,3 +10,5 @@ public class TernaryOperator {
 	}
 
 }
+
+//output:20
