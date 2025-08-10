@@ -1,0 +1,10 @@
+3. What are the types of operators in Java?
+
+Type of operators
+Arithmetic operators:	+, -, *, /, %	
+Relational operators:	==, !=, <, >, <=, >=
+Logical	operators: &&, ||
+Assignment operators:	=, +=, -=, /=, *=
+Unary operators:	+, -, ++, --, !	
+Bitwise	operator:  <<, >>
+Ternary operators:	? :	

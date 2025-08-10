@@ -1,0 +1,12 @@
+5.What is the default value of each primitive data type in Java?
+
+data_type    default value
+
+byte         0
+short		 0
+int  		 0
+long		 0
+float		 0.0f
+double		 0.0d
+character	 '\u000'
+boolean		 false

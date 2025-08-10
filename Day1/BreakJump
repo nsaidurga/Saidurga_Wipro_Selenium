@@ -1,0 +1,27 @@
+3. What is the difference between break and continue statements?
+
+Both break and continue are jump statements used inside loops or switch statements to 
+alter the normal flow of control, but they behave very differently.
+
+Break statement:
+break is used to exit the loop or switch block immediately.
+Ex:
+for (int i = 1; i <= 5; i++) {
+    if (i == 3) {
+        break;
+    }
+    System.out.print(i);
+}
+output: 1 2 
+
+
+Continue statement:
+continue is used to skips the current iteration of the loop and moves to the next iteration.
+Ex:
+for (int i = 1; i <= 5; i++) {
+    if (i == 3) {
+        continue;
+    }
+    System.out.print(i);
+}
+output: 1 2 4 5 

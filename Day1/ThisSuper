@@ -1,0 +1,9 @@
+9. What is the use of this and super in method overriding?
+
+this keyword:
+Refers to the current class instance.
+Used to access current class's variables or methods.
+
+super keyword:
+Refers to the parent class.
+Used to call the parent class method or constructor of the superclass.

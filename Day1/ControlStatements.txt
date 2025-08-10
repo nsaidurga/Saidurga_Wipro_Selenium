@@ -1,0 +1,85 @@
+1.What are control statements in Java? List the types with examples.
+
+Control Statements:
+Control statements in Java are used to control the flow of execution in 
+a program based on conditions or loops.
+There are 3 types of control statements.
+(1)Decision-Making Statements
+
+a)if statement
+	int age=20;
+	if(age>18){
+		System.out.println("Adult");
+	}
+	
+b)if else statement
+	int num = 5;
+	if (num % 2 == 0) {
+    	System.out.println("Even");
+	} else {
+    	System.out.println("Odd");
+	}
+	
+c)ladder if else
+
+	int marks = 85;
+	if (marks >= 90) {
+    	System.out.println("Grade A");
+	} else if (marks >= 75) {
+	    System.out.println("Grade B");
+	} else {
+    	System.out.println("Grade C");
+	}
+	
+d)switch statement
+
+	int day = 2;
+	switch (day) {
+    	case 1: System.out.println("Sunday"); break;
+    	case 2: System.out.println("Monday"); break;
+    	default: System.out.println("Invalid day");
+	}
+	
+2)Looping statements
+
+a)for loop
+	for(int i=1;i<4;i++){
+		System.out.println(i);
+	}
+	
+b)while loop
+	int i=1;
+	while(i<4){
+		System.out.println(i);
+		i++;
+	}
+	
+c)do-while loop
+	int i=1;
+	do{
+		System.out.println(i);
+		i++;
+	}while(i<4);
+	
+	
+3)Jumping Statements
+
+a)break
+	for(int i=1;i<4;i++){
+		if(i==2)break;
+			System.out.println(i);
+		
+	}
+	
+b)continue 
+	for(int i=1;i<4;i++){
+		if(i==2)continue;
+			System.out.println(i);
+		
+	}
+	
+c)return
+	public static int square(int x) {
+    return x * x;
+	}
+	

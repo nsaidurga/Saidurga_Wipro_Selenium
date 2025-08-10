@@ -1,0 +1,12 @@
+1.What are the different primitive data types available in Java?
+
+In java,there are 8 data types. They are:
+	byte – A small 8-bit signed integer with a range from -128 to 127.
+	short – A 16-bit signed integer used for saving memory in large arrays.
+	int – A 32-bit signed integer and the most commonly used whole number type.
+	long – A 64-bit signed integer used when int is not large enough
+	float – A 32-bit decimal number with less precision, used for saving memory.
+	double – A 64-bit decimal number, offering more precision than float.
+	char – A 16-bit data type used to store a single unicode character.
+	boolean – A data type that holds only two values: true or false.
+

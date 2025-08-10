@@ -1,0 +1,14 @@
+9. What is the difference between char and String in Java?
+
+char :
+char is a primitive datatype
+it stores single character
+char has 2 bytes of memory
+syntax : char a='H';
+
+String:
+String is a wrapper class and non primitive datatype.
+it can stores sequence of characters, object
+object stored in heap
+it is immutable
+syntax: String s="Hello";

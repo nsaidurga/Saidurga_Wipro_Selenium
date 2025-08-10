@@ -1,0 +1,19 @@
+2. Explain the purpose of the following keywords: static, final, this, super.
+
+static:
+we can access any static field by using class name
+Belongs to the class rather than any object.
+Can be used with variables, methods, blocks, or nested classes.
+Shared by all instances.
+
+final:
+Used to declare constants, prevent method overriding or inheritance.
+Cannot be changed once assigned.
+
+this:
+Refers to the current object of the class.
+Used to access instance variables and methods.
+
+super:
+Refers to the parent class (superclass) of the current object.
+Used to call superclass methods or constructors.

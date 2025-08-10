@@ -1,0 +1,20 @@
+9. Compare and contrast for, while, and do-while loops.
+
+for loop:
+for is used at the beginning for condition check.
+it is best for when number of iterations is known.
+for can execute 0 times if condition fails.
+syntax: for(initialization,condition,increment)
+
+while loop:
+while is used at the beginning for condition check.
+it is best for when number of iterations depend on condition.
+while can execute 0 times if condition fails.
+syntax: while(condition)
+
+
+do-while loop:
+while is used at the beginning for condition check.
+it is best for When at least one execution is required.
+do-while can execute 1 time even if condition fails.
+syntax: do{}while(condition)

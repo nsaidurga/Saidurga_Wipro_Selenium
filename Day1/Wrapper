@@ -1,0 +1,12 @@
+10. Explain wrapper classes and their use in Java.
+
+Wrapper classes are object representations of primitive data types.
+Primitive 	Wrapper Class
+byte	->	Byte
+short	->	Short
+int		->	Integer
+long	->	Long
+float	->	Float
+double	->	Double
+char	->	Character
+boolean	->	Boolean

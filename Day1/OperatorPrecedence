@@ -1,0 +1,19 @@
+5. What is operator precedence? How does it affect the outcome of expressions?
+
+Operator Precedence:
+it determines the order in which operators are evaluated in an expression.
+Operators with higher precedence are evaluated before lower ones.
+
+Operator Precedence Affects Expressions in Java:
+Operator precedence affects how an expression is evaluated, especially 
+when multiple operators are involved without parentheses.
+
+int result = 10 + 5 * 2;  
+System.out.println(result);
+it prints 20 instead of 30 because * has high precedence than + .
+
+Order of operator precedence:
+() – Parentheses 
+++, -- – Unary 
+ *, /, %
++, -

@@ -1,0 +1,31 @@
+2.Explain the difference between primitive and non-primitive data types in Java.
+
+(a) Primitive Data Types:
+	Definition: These are the basic, built-in data types provided by Java.
+	
+	Types: byte, short, int, long, float, double, char, and boolean.
+	
+	Size and Structure: Fixed size, memory-efficient, and store simple values.
+	
+	Operations: Perform operations directly using operators (+, -, etc.).
+	
+	Default Values: Have default values (e.g., 0 for int, false for boolean).
+	
+	Not Objects: They are not objects and don’t have methods.
+	
+	Stored in: Stored in the stack memory.
+
+(b) Non-Primitive Data Types:
+	Definition: These are data types created using classes and interfaces.
+	
+	Examples: String, Arrays, Classes, Interfaces, Wrapper classes, etc.
+	
+	Size and Structure: Can be large, complex, and dynamic in size.
+	
+	Operations: Require methods to operate (.length(), .equals(), etc.).
+	
+	Default Values: Default value is null.
+	
+	Are Objects: They are objects and have methods and properties.
+	
+	Stored in: Stored in the heap memory (reference in stack).
