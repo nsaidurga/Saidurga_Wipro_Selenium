@@ -31,3 +31,7 @@ public class WaitDemo {
 	}
 
 }
+/*output
+Produced: 4
+Consumed: 4
+*/
