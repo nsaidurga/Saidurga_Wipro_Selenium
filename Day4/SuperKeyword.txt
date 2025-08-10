@@ -1,0 +1,22 @@
+2. Demonstrate the use of the super keyword
+Use of Super Keyword:
+	
+(1)super() is used inside the child class constructor
+   to call the constructor of the parent class.
+	 
+(2)It must be the first statement in the constructor.
+
+(3)super.methodName() can call a method from the parent class
+
+(4)If a variable name is the same in both classes, 
+   super.variableName helps access the parent class variable.
+	 
+(5)super helps in code reuse by using methods and constructors
+  from the base (super) class.
+	 
+(6)It allows passing values from child class to parent class 
+   constructor.
+	 
+(7)Avoids redundancy by reusing existing functionality in the 
+   superclass.
+	
