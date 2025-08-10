@@ -22,3 +22,11 @@ public class OperatorsProgram {
 	}
 
 }
+/* output:
+Addition: 15
+Multiplication: 50
+a > b: true
+a == b: false
+x && y: false
+x || y: true
+*/
