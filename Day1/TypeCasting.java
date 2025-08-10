@@ -32,3 +32,8 @@ public class TypeCasting {
 	}
 
 }
+/* output:
+10.0
+10
+-106
+*/
