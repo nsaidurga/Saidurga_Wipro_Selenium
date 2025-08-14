@@ -1,0 +1,13 @@
+Pre-requisites
+
+1. Install the latest Java JDK and set up JAVA_HOME in system environment variables.
+2. Install the latest Eclipse for writing and running TestNG tests.
+3. Install the Selenium WebDriver Java bindings.
+4. Install the TestNG plugin in your IDE or add TestNG Maven dependency in pom.xml.
+5. Download the latest ChromeDriver (matching your Chrome browser version) and set its path in the code using:
+--->System.setProperty("webdriver.chrome.driver", "path_to_chromedriver");
+6. Have a valid Amazon account for login-related tests.
+7. Ensure a stable internet connection and Amazon website accessibility (https://www.amazon.com/).
+8. Keep test data ready (product names for search, address, etc.).
+9. Disable pop-up blockers in your browser.
+10. Clear browser cache and cookies before starting tests to avoid session conflicts.
