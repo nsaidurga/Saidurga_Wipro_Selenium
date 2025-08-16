@@ -1,0 +1,25 @@
+1.Login
+  The system should allow users to log in using valid credentials (email + password).
+  The system should prevent login with invalid credentials.
+  The system should provide options for password reset.
+2.Multiple Searches
+  The system should allow users to search multiple products using different keywords.
+  Search functionality should accept input from arrays/lists.
+3.Add to Cart
+  The system should allow adding multiple items to the shopping cart.
+  Cart should update item count and total price dynamically.
+4.Delete from Cart
+  The system should allow removing one or more items from the shopping cart.
+  System should update cart count and price after deletion.
+5.Change Login Name
+  The system should allow users to edit and update their profile name.
+6.Change Current Address
+  The system should allow users to add, edit, and save delivery addresses.
+7.Shop by Categories
+  The system should allow browsing and selecting products by categories.
+8.Product Description
+  The system should display detailed product information when selecting or right-clicking a product.
+9.Shop by All Categories
+  The "All Categories" option should be functional and display complete category lists correctly.
+10.Change Language
+  The system should allow users to change the website/application language via settings.
