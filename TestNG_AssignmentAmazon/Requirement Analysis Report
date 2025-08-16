@@ -1,0 +1,18 @@
+1. Functional Requirements
+  Login Functionality: Secure authentication, error handling for wrong inputs, password reset option.
+  Search Functionality: Handle single and multiple searches; quick response time.
+  Cart Operations: Accurate add/delete, quantity update, and price recalculation.
+  User Profile Management: Update login name, manage saved addresses.
+  Shopping Features: Browse by category/all categories; smooth navigation.
+  Product Details: Display complete and accurate descriptions, images, and specifications.
+  Language Settings: Multilingual support, easy switch between languages.
+2. Non-Functional Requirements
+  Performance: Quick search results (<3 seconds).
+  Usability: Intuitive UI for cart, login, and search.
+  Reliability: Cart and user settings must persist across sessions.
+  Compatibility: Works across browsers (Chrome, Firefox, Edge) and devices (PC, mobile).
+  Security: Data encryption for login, secure session handling.
+3. Risks Challenges
+  Frequent UI updates on Amazon might break locators/scripts.
+  Product availability varies region-wise, which may affect test consistency.
+  Performance may differ based on internet speed/location.
