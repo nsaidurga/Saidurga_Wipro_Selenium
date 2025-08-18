@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="LoginSuite">
+	<test name="valid">
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin@123" />
+		<classes>
+			<class name="ttestpack2.ParametersAnnotation" />
+		</classes>
+	</test>
+
+	<test name="invalid">
+		<parameter name="username" value="3653625" />
+		<parameter name="password" value="243ew3" />
+		<classes>
+			<class name="ttestpack2.ParametersAnnotation" />
+		</classes>
+	</test>
+</suite>

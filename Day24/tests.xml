@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ParallelTestsSuite" parallel="tests" thread-count="2">
+    <test name="Car">
+        <classes>
+            <class name="ttestpack2.Car"/>
+        </classes>
+    </test>
+
+    <test name="Bike">
+        <classes>
+            <class name="ttestpack2.Bike"/>
+        </classes>
+    </test>
+</suite>
