@@ -1,0 +1,13 @@
+Post-conditions:
+After each test case:
+1. Ensure the browser is still in a valid state for the next test.
+2. Log any important output or screenshots for failed tests.
+3. If a login was performed, maintain or reset session depending on test flow.
+4. Clear any search input fields or form fields used during the test.
+5. If items were added to cart or wishlist, remove them if they are not needed for the next test.
+6. Reset any changed settings (language, address, etc.) if not intended to persist for other tests.
+7. If navigated deep into Amazon’s flow, return to home page for the next test:
+--> driver.navigate().to("https://www.amazon.com/");
+8. Confirm that all pop-ups or overlays are closed before the next test starts.
+9. If the test ends the session intentionally, log out from Amazon.
+10. After the last test, close the browser.
