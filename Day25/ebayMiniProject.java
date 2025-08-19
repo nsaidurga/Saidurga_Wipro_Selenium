@@ -23,8 +23,6 @@ public class ebayMiniProject {
 	@BeforeTest
 	public void beforeTest() throws InterruptedException {
 		d = new ChromeDriver();
-		// d.get("https://www.amazon.com/?ref_=navm_em_header_home");
-		// d.get("https://signin.ebay.com/");
 		d.get("https://www.ebay.com/");
 		d.manage().window().maximize();
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -105,9 +103,8 @@ public class ebayMiniProject {
 	}
 
 	// 4.delete cart
-	@Test
+	@Test(dependsOnMethods = { "login" })
 	public void deleteCart() throws InterruptedException {
-		login();
 		Thread.sleep(4000);
 		d.findElement(By.xpath("//*[@id=\"gh\"]/nav/div[2]/div[5]/div/a/span")).click();
 		d.findElement(By.xpath(
@@ -235,9 +232,12 @@ public class ebayMiniProject {
 		a.moveToElement(change).perform();
 		d.findElement(By.linkText("India")).click();
 		d.findElement(By.id("onetrust-accept-btn-handler")).click();
+		Thread.sleep(2000);
 		d.findElement(By.cssSelector("span[class=\"region-chooser__text\"]")).click();
+		Thread.sleep(2000);
 		WebElement sel=d.findElement(By.xpath("//*[@id=\"__next\"]/div[2]/div[2]/div[1]/form/div/div[2]/div/div[1]"));
 		sel.click();
+		Thread.sleep(2000);
 		sel.sendKeys("India");
 		sel.sendKeys(Keys.ENTER);
 		d.findElement(By.cssSelector("button[class=\"btn region-popup__button btn btn--button\"]")).click();
